@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;		
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+
+    color: white;
+    background-color: #363636;
+}
+
+aside {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+aside a {
+    display: block;
+    padding: 10px;
+
+    text-decoration: none;
+    color: #363636;
+}
+
+aside li {
+
+    font-size: 17px;
+    border-bottom: 1px solid gray;
+}
+
+aside li:first-child {
+    border-top: 1px solid gray;		
+}
+
+aside li:hover {
+    background-color: #363636;
+    color: white;
+}
+
+.opciones {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    float: left;
+
+    color: #363636;
+}
+
+.opciones img {
+    width: 100%;
+    height: 100px;
+}
+
+.imagen-producto {
+    width: 80px;
+    height: auto;
+}
+
+.imagen-producto-detalle {
+    float: left;
+
+    width: 200px;
+    height: auto;
+
+    border-radius: 3%;
+}
+
+#banner {
+    padding: 30px 0 30px 0; 
+    text-align: center;
+}
+
+#central {
+    width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;	
+    padding-top: 10px;
+}
+
+
+.botones {
+    min-width: 150px;
+    
+    padding: 5px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    background-color: #696969;
+}
+    .botones:hover {
+        background-color: gray;
+    }
+
+.espaciado {
+    width: 15px;
+}
+
+.row-odd {
+    background-color: white;
+}
+
+.row-even {
+    background-color: #E8E8E8;
+}
+
+.row-th {
+    color: white;
+    background-color: #696969;
+}
+/*
+clase para dar estilos a los input text y textarea
+*/
+.textbox {
+	width: 300px;
+
+    border: 1px solid #DBE1EB;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+
+.textbox-large {
+    width: 700px;
+
+    border: 1px solid #DBE1EB;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+
+.centrando {
+    margin-left: 100px;
+}
+
+.centreado{
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.direccion {
+    width: 250px;
+}
+
+#alfabetico li{
+    float: left;
+
+    padding: 10px;
+}
+
+.sub-menu-lista li a {
+    display: block;
+
+    color: #696969;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.sub-menu-lista li a:hover {
+            color: white;
+            background-color: #434343;
+        }
+
+        .sub-menu-lista > li {
+            float: left;
+        }
+
+        .sub-menu-lista li ul {
+            display: none;
+
+            position: absolute;
+            min-width: 140px;
+        }
+
+        .sub-menu-lista li:hover > ul {
+
+            display: block;
+
+            background-color: #434343;
+            color: white;
+        }
+
+        .sub-menu-lista li ul li {
+            position: relative;
+        }
+
+        .sub-menu-lista li ul li ul {
+            right: -140px;
+            top: 0;
+        }
+/*
+seccion para dar estilos a los detalles del producto archivo informacion_producto.php
+
+*/
+.parrafo-detalle {
+    width: 600px;
+
+    text-align: justify;
+    word-break: normal;
+}
+
+#tabla-inf-prod {
+    float: left;
+
+    margin-left: 30px;
+}
